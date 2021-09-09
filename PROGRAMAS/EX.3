@@ -1,0 +1,23 @@
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	// exibe a utilidade do programa
+	printf("CALCULO DA AREA DE UM TRIANGULO ");
+	// declara as variaveis do cálculo
+	int b, h, area;
+	// pede a base do triangulo
+	printf("Digite a base do triangulo:");
+	scanf("%i", &b);
+	// pede a altura do triangulo
+	printf("Digite a altura do triangulo: ");
+	scanf("%i", &h);
+	// desenvolve o calculo da area
+	area = (b * h) / 2;
+	// mostra o resultado do calculo
+	printf("A area do triangulo e igual a %i", area);
+	//fim
+	
+	return 0;
+}
